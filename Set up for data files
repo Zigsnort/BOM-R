@@ -1,0 +1,8 @@
+R code for installing Johen Coen's sacred documents data
+
+install.packages("devtools")
+devtools::install_github("JohnCoene/sacred")
+
+library(sacred)
+data("book_of_mormon")
+head(book_of_mormon)
